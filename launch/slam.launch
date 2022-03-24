@@ -1,0 +1,9 @@
+<launch>
+
+  <node name="local_rgbd_publisher" pkg="ros_video_transport"
+          type="local_rgbd_publisher"/>
+
+  <node name="local_rgbd_receiver" pkg="ros_video_transport"
+          type="local_rgbd_receiver"/>
+
+</launch>
